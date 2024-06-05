@@ -1,6 +1,6 @@
 <script>
 	import LineChart from './components/LineChart.svelte';
-	import Scatterplot from './components/Scatterplot.svelte';
+	import Scatterplot from './components/scatterplot.svelte';
 	import Top10Bottom10 from './components/Top10Bottom10.svelte';
   </script>
   
