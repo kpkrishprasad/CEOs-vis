@@ -21,5 +21,5 @@ export default defineConfig({
       '@': '/src',  // This allows you to use '@/somePath' as an alias to '/src/somePath'
     }
   },
-  base: '/CEOs-vis/'
+  base: '/vite-deploy-demo/'
 });
