@@ -21160,52 +21160,52 @@ var app = (function () {
     			t19 = space();
     			br5 = element("br");
     			attr_dev(h1, "class", "svelte-2eovsx");
-    			add_location(h1, file$3, 155, 2, 5150);
+    			add_location(h1, file$3, 155, 2, 5178);
     			attr_dev(p0, "class", "svelte-2eovsx");
-    			add_location(p0, file$3, 156, 2, 5198);
+    			add_location(p0, file$3, 156, 2, 5226);
     			set_style(div0, "justify-content", "center");
     			set_style(div0, "display", "grid");
-    			add_location(div0, file$3, 154, 0, 5096);
-    			add_location(br0, file$3, 163, 0, 5852);
-    			add_location(br1, file$3, 164, 0, 5857);
+    			add_location(div0, file$3, 154, 0, 5124);
+    			add_location(br0, file$3, 163, 0, 5880);
+    			add_location(br1, file$3, 164, 0, 5885);
     			attr_dev(svg0, "width", /*margin*/ ctx[4].left);
     			attr_dev(svg0, "height", /*height*/ ctx[6] + /*margin*/ ctx[4].top + /*margin*/ ctx[4].bottom);
     			attr_dev(svg0, "class", "svelte-2eovsx");
-    			add_location(svg0, file$3, 168, 2, 5958);
+    			add_location(svg0, file$3, 168, 2, 5986);
     			attr_dev(button0, "class", "arrow-button svelte-2eovsx");
     			set_style(button0, "left", "0");
-    			add_location(button0, file$3, 171, 6, 6219);
+    			add_location(button0, file$3, 171, 6, 6247);
     			set_style(div1, "width", /*totalWidth*/ ctx[5] + "px");
     			set_style(div1, "height", "1px");
-    			add_location(div1, file$3, 173, 8, 6431);
+    			add_location(div1, file$3, 173, 8, 6459);
     			attr_dev(div2, "class", "custom-scrollbar");
     			set_style(div2, "overflow-x", "auto");
     			set_style(div2, "overflow-y", "hidden");
     			set_style(div2, "flex-grow", "1");
-    			add_location(div2, file$3, 172, 6, 6307);
+    			add_location(div2, file$3, 172, 6, 6335);
     			attr_dev(button1, "class", "arrow-button svelte-2eovsx");
     			set_style(button1, "right", "0");
-    			add_location(button1, file$3, 175, 6, 6506);
+    			add_location(button1, file$3, 175, 6, 6534);
     			set_style(div3, "position", "relative");
     			set_style(div3, "display", "flex");
     			set_style(div3, "align-items", "center");
-    			add_location(div3, file$3, 170, 4, 6143);
+    			add_location(div3, file$3, 170, 4, 6171);
     			attr_dev(svg1, "width", /*totalWidth*/ ctx[5]);
     			attr_dev(svg1, "height", /*height*/ ctx[6] + /*margin*/ ctx[4].top + /*margin*/ ctx[4].bottom);
     			attr_dev(svg1, "class", "svelte-2eovsx");
-    			add_location(svg1, file$3, 178, 6, 6658);
+    			add_location(svg1, file$3, 178, 6, 6686);
     			set_style(div4, "overflow-x", "hidden");
     			set_style(div4, "width", "100%");
-    			add_location(div4, file$3, 177, 4, 6605);
+    			add_location(div4, file$3, 177, 4, 6633);
     			set_style(div5, "width", "calc(100% - 100px)");
     			set_style(div5, "padding-left", "10px");
     			set_style(div5, "position", "relative");
-    			add_location(div5, file$3, 169, 2, 6058);
+    			add_location(div5, file$3, 169, 2, 6086);
     			set_style(div6, "display", "flex");
     			set_style(div6, "justify-content", "center");
     			set_style(div6, "align-items", "flex-start");
     			set_style(div6, "width", "100%");
-    			add_location(div6, file$3, 167, 0, 5864);
+    			add_location(div6, file$3, 167, 0, 5892);
     			attr_dev(div7, "class", "tooltip svelte-2eovsx");
     			set_style(div7, "display", "none");
     			set_style(div7, "position", "absolute");
@@ -21214,17 +21214,17 @@ var app = (function () {
     			set_style(div7, "padding", "10px");
     			set_style(div7, "border-radius", "5px");
     			set_style(div7, "box-shadow", "0px 0px 10px rgba(0, 0, 0, 0.1)");
-    			add_location(div7, file$3, 184, 0, 6804);
+    			add_location(div7, file$3, 184, 0, 6832);
     			attr_dev(p1, "class", "svelte-2eovsx");
-    			add_location(p1, file$3, 186, 2, 7079);
+    			add_location(p1, file$3, 186, 2, 7107);
     			set_style(div8, "justify-content", "center");
     			set_style(div8, "display", "grid");
-    			add_location(div8, file$3, 185, 0, 7024);
-    			add_location(br2, file$3, 191, 0, 7692);
-    			add_location(br3, file$3, 192, 0, 7697);
-    			add_location(hr, file$3, 193, 0, 7702);
-    			add_location(br4, file$3, 194, 0, 7707);
-    			add_location(br5, file$3, 195, 0, 7712);
+    			add_location(div8, file$3, 185, 0, 7052);
+    			add_location(br2, file$3, 191, 0, 7720);
+    			add_location(br3, file$3, 192, 0, 7725);
+    			add_location(hr, file$3, 193, 0, 7730);
+    			add_location(br4, file$3, 194, 0, 7735);
+    			add_location(br5, file$3, 195, 0, 7740);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -21341,7 +21341,7 @@ var app = (function () {
     	const yScale = log$1().domain([5000000, 290000000]).range([height, 0]); // Logarithmic scale from 1 to 200,000,000
 
     	onMount(async () => {
-    		const response = await fetch('/ceo_data_b.json');
+    		const response = await fetch('/CEOs-HATE-This-Simple-Trick/ceo_data_b.json');
     		const ceoData = await response.json();
 
     		// Group data by industry
@@ -21773,20 +21773,20 @@ var app = (function () {
     			strong5.textContent = "Industry:";
     			t21 = space();
     			t22 = text$1(t22_value);
-    			add_location(strong0, file$1, 197, 15, 6962);
-    			add_location(p0, file$1, 197, 12, 6959);
-    			add_location(strong1, file$1, 198, 15, 7033);
-    			add_location(p1, file$1, 198, 12, 7030);
-    			add_location(strong2, file$1, 199, 15, 7096);
-    			add_location(p2, file$1, 199, 12, 7093);
-    			add_location(strong3, file$1, 200, 15, 7167);
-    			add_location(p3, file$1, 200, 12, 7164);
-    			add_location(strong4, file$1, 201, 15, 7254);
-    			add_location(p4, file$1, 201, 12, 7251);
-    			add_location(strong5, file$1, 202, 15, 7328);
-    			add_location(p5, file$1, 202, 12, 7325);
+    			add_location(strong0, file$1, 197, 15, 6990);
+    			add_location(p0, file$1, 197, 12, 6987);
+    			add_location(strong1, file$1, 198, 15, 7061);
+    			add_location(p1, file$1, 198, 12, 7058);
+    			add_location(strong2, file$1, 199, 15, 7124);
+    			add_location(p2, file$1, 199, 12, 7121);
+    			add_location(strong3, file$1, 200, 15, 7195);
+    			add_location(p3, file$1, 200, 12, 7192);
+    			add_location(strong4, file$1, 201, 15, 7282);
+    			add_location(p4, file$1, 201, 12, 7279);
+    			add_location(strong5, file$1, 202, 15, 7356);
+    			add_location(p5, file$1, 202, 12, 7353);
     			attr_dev(div, "class", "company-details svelte-1mpy8x9");
-    			add_location(div, file$1, 196, 8, 6917);
+    			add_location(div, file$1, 196, 8, 6945);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -21902,33 +21902,33 @@ var app = (function () {
     			t10 = text$1("Data source: ");
     			a = element("a");
     			a.textContent = "Kaggle - Highest Paid CEOs Total Compensation";
-    			add_location(br0, file$1, 178, 4, 5766);
-    			add_location(br1, file$1, 178, 8, 5770);
-    			add_location(hr, file$1, 178, 12, 5774);
-    			add_location(br2, file$1, 178, 16, 5778);
-    			add_location(br3, file$1, 178, 20, 5782);
+    			add_location(br0, file$1, 178, 4, 5794);
+    			add_location(br1, file$1, 178, 8, 5798);
+    			add_location(hr, file$1, 178, 12, 5802);
+    			add_location(br2, file$1, 178, 16, 5806);
+    			add_location(br3, file$1, 178, 20, 5810);
     			set_style(p0, "padding-left", "200px");
     			set_style(p0, "padding-right", "200px");
-    			add_location(p0, file$1, 182, 4, 5828);
+    			add_location(p0, file$1, 182, 4, 5856);
     			attr_dev(div0, "class", "blurb svelte-1mpy8x9");
-    			add_location(div0, file$1, 177, 0, 5742);
+    			add_location(div0, file$1, 177, 0, 5770);
     			attr_dev(div1, "id", "chart-top10");
-    			add_location(div1, file$1, 190, 4, 6778);
+    			add_location(div1, file$1, 190, 4, 6806);
     			attr_dev(div2, "id", "chart-bottom10");
-    			add_location(div2, file$1, 191, 4, 6811);
+    			add_location(div2, file$1, 191, 4, 6839);
     			attr_dev(div3, "class", "chart-container svelte-1mpy8x9");
-    			add_location(div3, file$1, 189, 0, 6744);
-    			add_location(p1, file$1, 206, 8, 7450);
-    			add_location(p2, file$1, 209, 8, 7628);
+    			add_location(div3, file$1, 189, 0, 6772);
+    			add_location(p1, file$1, 206, 8, 7478);
+    			add_location(p2, file$1, 209, 8, 7656);
     			attr_dev(div4, "class", "implications svelte-1mpy8x9");
-    			add_location(div4, file$1, 205, 4, 7415);
+    			add_location(div4, file$1, 205, 4, 7443);
     			attr_dev(div5, "class", "details-container svelte-1mpy8x9");
-    			add_location(div5, file$1, 194, 0, 6851);
+    			add_location(div5, file$1, 194, 0, 6879);
     			attr_dev(a, "href", "https://www.kaggle.com/datasets/alanjo/highest-paid-ceos-total-compensation");
     			attr_dev(a, "target", "_blank");
-    			add_location(a, file$1, 216, 17, 8188);
+    			add_location(a, file$1, 216, 17, 8216);
     			attr_dev(div6, "class", "credit");
-    			add_location(div6, file$1, 215, 0, 8150);
+    			add_location(div6, file$1, 215, 0, 8178);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -22009,7 +22009,7 @@ var app = (function () {
 
     	onMount(async () => {
     		try {
-    			const response = await fetch('/ceo_data_b.json');
+    			const response = await fetch('/CEOs-HATE-This-Simple-Trick/ceo_data_b.json');
     			data = await response.json();
     			data.sort((a, b) => b.payRatio - a.payRatio);
     			top10 = data.slice(0, 10);

@@ -24,7 +24,7 @@
     .range([height, 0]);
 
   onMount(async () => {
-    const response = await fetch('/ceo_data_b.json');
+    const response = await fetch('/CEOs-HATE-This-Simple-Trick/ceo_data_b.json');
     const ceoData = await response.json();
     
     // Group data by industry

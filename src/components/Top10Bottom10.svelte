@@ -9,7 +9,7 @@
 
     onMount(async () => {
         try {
-            const response = await fetch('/ceo_data_b.json');
+            const response = await fetch('/CEOs-HATE-This-Simple-Trick/ceo_data_b.json');
             data = await response.json();
 
             data.sort((a, b) => b.payRatio - a.payRatio);
