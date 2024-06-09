@@ -21572,15 +21572,15 @@ var app = (function () {
     			p1 = element("p");
     			p1.textContent = "The CEO Pay Ratio data ranges from a minimum of 0 at PACCAR to a maximum of 4628 at Western Digital. The pay ratio measures how many times more the CEO is paid compared to the median worker within the same company. For instance, at Western Digital, the CEO, David V. Goeckeler, earns 4628 times the median employee pay. This graph provides a visual representation of the disparity in compensation between top executives and average workers across various industries, highlighting significant differences and trends. It reveals, for example, how sectors like Technology tend to have higher discrepancies, reflecting broader economic and social dynamics within these industries.";
     			attr_dev(p0, "class", "svelte-tjdh9z");
-    			add_location(p0, file$2, 106, 2, 3092);
+    			add_location(p0, file$2, 106, 2, 3106);
     			attr_dev(div0, "class", "user-instructions");
-    			add_location(div0, file$2, 105, 0, 3058);
+    			add_location(div0, file$2, 105, 0, 3072);
     			attr_dev(div1, "id", "scatterplot");
-    			add_location(div1, file$2, 110, 0, 3194);
+    			add_location(div1, file$2, 110, 0, 3208);
     			attr_dev(p1, "class", "svelte-tjdh9z");
-    			add_location(p1, file$2, 112, 2, 3257);
+    			add_location(p1, file$2, 112, 2, 3271);
     			attr_dev(div2, "class", "graph explanation");
-    			add_location(div2, file$2, 111, 0, 3223);
+    			add_location(div2, file$2, 111, 0, 3237);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -21621,6 +21621,7 @@ var app = (function () {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Scatterplot', slots, []);
     	let ceoData = [];
+    	let joe = [];
 
     	onMount(async () => {
     		const response = await fetch('/CEOs-HATE-This-Simple-Trick/build/ceo_data_b.json');
@@ -21664,10 +21665,11 @@ var app = (function () {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<Scatterplot> was created with unknown prop '${key}'`);
     	});
 
-    	$$self.$capture_state = () => ({ onMount, d3, ceoData });
+    	$$self.$capture_state = () => ({ onMount, d3, ceoData, joe });
 
     	$$self.$inject_state = $$props => {
     		if ('ceoData' in $$props) ceoData = $$props.ceoData;
+    		if ('joe' in $$props) joe = $$props.joe;
     	};
 
     	if ($$props && "$$inject" in $$props) {

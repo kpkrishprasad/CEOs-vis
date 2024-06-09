@@ -3,7 +3,7 @@
   import * as d3 from 'd3';
 
   let ceoData = [];
-
+  let joe =[];
   onMount(async () => {
     const response = await fetch('/CEOs-HATE-This-Simple-Trick/build/ceo_data_b.json');
     ceoData = await response.json();
